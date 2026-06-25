@@ -17,3 +17,10 @@ div{
     font-size: 20px;
     /* background-color: rgb(218, 28, 28); */
 }  
+
+table, th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius: 4px;
+    padding: 2px 3px 4px 5px;
+}
