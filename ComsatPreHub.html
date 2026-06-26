@@ -53,8 +53,28 @@
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
+
     </div>
+
+    <button id="myButton">Click Me</button>
     </main>
+
+    <script>
+        // JavaScript code can be added here if needed
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('COMSATSPREPHUB page loaded');
+        });
+
+        document.getElementById('nav').addEventListener('click', function(event) {
+            if (event.target.tagName === 'A') {
+                console.log('Navigation link clicked:', event.target.href);
+            }
+        });
+
+        document.getElementById('myButton').addEventListener('click', function() {
+            alert('Button clicked!');
+        });
+    </script>
     
 </body>
 </html>
